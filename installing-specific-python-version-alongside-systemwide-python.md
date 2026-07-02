@@ -25,7 +25,7 @@ Add the repository by running:
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 ```
 
-### Step 4: Install Python 3.11 (Target Specific Version)
+### Step 4: Install Python 3.11
 Now you can install the Python 3.11 runtime. Make sure to include the `python3.11-venv` package explicitly, as you will need it to create virtual environments later.
 
 ```bash
