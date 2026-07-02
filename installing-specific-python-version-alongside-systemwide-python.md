@@ -17,8 +17,9 @@ sudo apt install -y software-properties-common
 ```
 
 ### Step 3: Add the Deadsnakes PPA Repository
-The official Ubuntu repositories typically only track one or two stable Python versions per OS distribution release. The Deadsnakes PPA provides optimized, cleanly split packages for older and cutting-edge Python versions side-by-side.
-Add the repository using the command below:
+Standard Ubuntu repositories usually only keep track of one or two stable Python versions per OS release. The Deadsnakes PPA is a trusted community repository that provides cleanly packaged older and newer Python versions that can run side-by-side.
+
+Add the repository by running:
 
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa -y
