@@ -1,17 +1,16 @@
 # Installing and Isolating Python 3.11 alongside systemwide Python 3.14
 
-This document details the process for installing Python 3.11 as an alternate runtime alongside a pre-existing system-wide Python 3.14 installation on Ubuntu Linux, and 
-how to safely provision an isolated project environment.
+This document shows you how to install Python 3.11 as an alternate version alongside your existing system-wide Python 3.14 installation on Ubuntu. It also covers how to safely set up an isolated project environment using that specific version.
 
 ### Step 1: Update the Local Package Index
-Before making structural modifications or adding new software repositories, ensure your Ubuntu system package index is fully current.
+Before adding new software repositories or packages, make sure your system's package list is fully up to date.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
 ### Step 2: Install Software Properties Common
-To safely manage independent software channels via Personal Package Archives (PPAs), the software-properties-common manager must be present on the machine.
+You need the software-properties-common package to easily manage independent software channels like Personal Package Archives (PPAs).
 
 ```bash
 sudo apt install -y software-properties-common
